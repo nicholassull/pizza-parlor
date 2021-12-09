@@ -19,7 +19,17 @@ __
 > git clone https://github.com/nicholassull/portfolio-landing
 * _Open index.html_
 
+## Specifications
+```
+Describe: Pizza()
+Purpose: Create a new Pizza object with a size of 1.
+Code: > newPizza(1)
+> console.log(newPizza.size)
+Expected Output: 1
+```
+```
 
+```
 ## Known Bugs
 
 * _No known bugs at this time._
