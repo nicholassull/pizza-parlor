@@ -14,5 +14,8 @@ Pizza.prototype.price = function() {
   } else {
     cost += 18
   }
+  this.toppings.forEach(function(topping) { 
+    cost += 1;
+  });
   return cost;
 }
