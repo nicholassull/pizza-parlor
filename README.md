@@ -28,6 +28,10 @@ Code: > newPizza(1)
 Expected Output: 1
 ```
 ```
+Describe: Pizza.prototype.price()
+Purpose: Output a number according to the size of newPizza
+Code: newPizza.price()
+Expected Output: 10
 
 ```
 ## Known Bugs
