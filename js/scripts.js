@@ -1,7 +1,7 @@
 // Business Logic
-function Pizza(size) {
+function Pizza(size, toppings) {
   this.size = size;
-  this.toppings = []
+  this.toppings = toppings
 }
 
 Pizza.prototype.price = function() {
@@ -19,20 +19,20 @@ Pizza.prototype.price = function() {
   return cost;
 }
 
-Pizza.prototype.addToppings = function(toppings) {
-  this.toppings = toppings;
-}
-
 //User Logic
 $(document).ready(function() {
   $("#order-form").submit(function(event) {
     let toppingArray = []
     const checkboxes = document.querySelectorAll("input[name='toppings']:checked");
+    const size = $("#size-select").val();
+
     checkboxes.forEach((checkbox) => {
       toppingArray.push(checkbox.value);
     });
-    console.log(toppingArray);
-    let newPizza = new Pizza(size);
+    let newPizza = new Pizza(size, toppingArray);
+    console.log(newPizza);
+    console.log(newPizza.toppings);
+
     event.preventDefault();
   });
 })
