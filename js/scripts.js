@@ -19,6 +19,16 @@ Pizza.prototype.price = function() {
   return cost;
 }
 
+Pizza.prototype.sizeName = function() {
+  if (this.size === 1) {
+    return "Small";
+  } else if (this.size === 2) {
+    return "Medium";
+  } else {
+    return "Large";
+  }
+}
+
 //User Logic
 $(document).ready(function() {
   $("#order-form").submit(function(event) {

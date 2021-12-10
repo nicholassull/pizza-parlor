@@ -36,8 +36,15 @@ Describe: Pizza.prototype.price()
 Purpose: Increase the cost of the pizza by 1 for every topping in newPizza.toppings.
 Code:
 > newPizza.toppings = ["mushrooms", "onions"]; 
-> newPizza.price()
+> newPizza.price();
 Expected Output: 12
+
+Describe: Pizza.prorotype.sizeName()
+Purpose: Return "Small", "Medium", or "Large" based on the size number of a Pizza object.
+Code:
+> newPizza.size = 1;
+> newPizza.sizeName();
+Expected Output: "Small"
 ```
 ## Known Bugs
 
