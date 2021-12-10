@@ -23,7 +23,7 @@ Pizza.prototype.price = function() {
 $(document).ready(function() {
   $("#order-form").submit(function(event) {
     let toppingArray = []
-    const name = $("name-input").val();
+    const name = $("#name-input").val();
     const checkboxes = document.querySelectorAll("input[name='toppings']:checked");
     const size = parseInt($("#size-select").val());
 
@@ -34,6 +34,7 @@ $(document).ready(function() {
     let price = newPizza.price();
 
     $("#receipt-details").show();
+    $("#name-span").html(name);
     $("#total-span").html("$" + price + ".00");
 
     event.preventDefault();
