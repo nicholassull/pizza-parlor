@@ -31,8 +31,9 @@ $(document).ready(function() {
     });
     let newPizza = new Pizza(size, toppingArray);
     let price = newPizza.price();
-    
-    console.log(price);
+
+    $("#receipt-details").show();
+    $("#total-span").html("$" + price + ".00");
 
     event.preventDefault();
   });
