@@ -1,5 +1,4 @@
-// Utility Functions
-
+// Business Logic
 function Pizza(size) {
   this.size = size;
   this.toppings = []
@@ -20,7 +19,9 @@ Pizza.prototype.price = function() {
   return cost;
 }
 
-// Business Logic
+Pizza.prototype.addToppings = function(toppings) {
+  this.toppings = toppings;
+}
 
 //User Logic
 $(document).ready(function() {
@@ -31,6 +32,7 @@ $(document).ready(function() {
       toppingArray.push(checkbox.value);
     });
     console.log(toppingArray);
+    let newPizza = new Pizza(size);
     event.preventDefault();
   });
 })
