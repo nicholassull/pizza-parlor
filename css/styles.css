@@ -13,6 +13,15 @@ header {
   margin: 0 auto;
 }
 
+#form-container {
+  margin: 25px;
+}
+
+#form-title {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
 #receipt-details {
   display: none;
 }
