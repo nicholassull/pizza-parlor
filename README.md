@@ -38,13 +38,6 @@ Code:
 > newPizza.toppings = ["mushrooms", "onions"]; 
 > newPizza.price()
 Expected Output: 12
-
-Describe: Pizza.prototype.addToppings()
-Purpose: Set the toppings given as arguments to the object's toppings value.
-Code:
-> newPizza.addToppings(["mushrooms", "pineapple"])
-> console.log(newPizza.toppings);
-Expected Output: ["mushrooms", "pineapple"]
 ```
 ## Known Bugs
 
