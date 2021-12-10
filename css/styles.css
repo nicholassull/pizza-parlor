@@ -2,6 +2,17 @@ body {
   background-color: rgb(238, 185, 117);
 }
 
+header {
+  text-align: center;
+  padding: 25px;
+  background-color: rgb(212, 109, 91);
+}
+
+#content-container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
 #receipt-details {
   display: none;
 }
