@@ -24,14 +24,15 @@ $(document).ready(function() {
   $("#order-form").submit(function(event) {
     let toppingArray = []
     const checkboxes = document.querySelectorAll("input[name='toppings']:checked");
-    const size = $("#size-select").val();
+    const size = parseInt($("#size-select").val());
 
     checkboxes.forEach((checkbox) => {
       toppingArray.push(checkbox.value);
     });
     let newPizza = new Pizza(size, toppingArray);
-    console.log(newPizza);
-    console.log(newPizza.toppings);
+    let price = newPizza.price();
+    
+    console.log(price);
 
     event.preventDefault();
   });
