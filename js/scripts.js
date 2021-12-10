@@ -23,6 +23,7 @@ Pizza.prototype.price = function() {
 $(document).ready(function() {
   $("#order-form").submit(function(event) {
     let toppingArray = []
+    const name = $("name-input").val();
     const checkboxes = document.querySelectorAll("input[name='toppings']:checked");
     const size = parseInt($("#size-select").val());
 
