@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(238, 185, 117);
+}
+
 #receipt-details {
-  display: ;
+  display: none;
 }
