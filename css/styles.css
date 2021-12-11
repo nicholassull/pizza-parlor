@@ -14,7 +14,7 @@ header {
 }
 
 #form-container {
-  margin: 25px;
+  margin: 20px 10px 10px 10px;
 }
 
 #form-title {
@@ -22,6 +22,9 @@ header {
   padding-bottom: 5px;
 }
 
+#receipt {
+  margin: 20px 10px 10px 10px;
+}
 #receipt-details {
   display: none;
 }
