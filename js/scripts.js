@@ -45,6 +45,7 @@ $(document).ready(function() {
 
     $("#receipt-details").show();
     $("#name-span").html(name);
+    $("#size-span").html(newPizza.sizeName());
     $("#total-span").html("$" + price + ".00");
 
     event.preventDefault();
