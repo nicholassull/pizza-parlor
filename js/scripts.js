@@ -43,6 +43,7 @@ $(document).ready(function() {
     let newPizza = new Pizza(size, toppingArray);
     let price = newPizza.price();
 
+    $("#toppings-list").empty();
     newPizza.toppings.forEach(function(topping) {
       $("#toppings-list").append("<li>" + topping + "</li>");
     });
