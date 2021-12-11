@@ -6,6 +6,7 @@ header {
   text-align: center;
   padding: 25px;
   background-color: rgb(212, 109, 91);
+  border: 4px rgb(192, 89, 63) solid;
 }
 
 #content-container {
@@ -48,4 +49,6 @@ ul {
 
 footer {
   text-align: center;
+  background-color: rgb(212, 109, 91);
+  padding: 5px 0px 3px 0px;
 }
