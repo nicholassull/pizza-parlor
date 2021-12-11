@@ -23,10 +23,14 @@ header {
 }
 
 #receipt {
-  margin: 20px 10px 10px 10px;
+  margin: 15px 10px 10px 30px;
 }
 #receipt-details {
   display: none;
+}
+
+#receipt-card {
+  height: 550px;
 }
 
 ul {
