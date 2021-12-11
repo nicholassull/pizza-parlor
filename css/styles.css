@@ -25,3 +25,7 @@ header {
 #receipt-details {
   display: none;
 }
+
+ul {
+  list-style-type: none;
+}
