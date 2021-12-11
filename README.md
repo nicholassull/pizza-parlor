@@ -22,25 +22,31 @@ __
 ## Specifications
 ```
 Describe: Pizza()
-Purpose: Create a new Pizza object with a size of 1.
-Code: > newPizza(1)
+
+Test: Create a new Pizza object with a size of 1.
+Code: 
+> newPizza(1)
 > console.log(newPizza.size)
 Expected Output: 1
-
+```
+```
 Describe: Pizza.prototype.price()
-Purpose: Output a number according to the size of newPizza
-Code: newPizza.price()
+
+Test: It should output a number according to the size of newPizza
+Code: 
+> newPizza.price()
 Expected Output: 10
 
-Describe: Pizza.prototype.price()
-Purpose: Increase the cost of the pizza by 1 for every topping in newPizza.toppings.
+Test: It should increase the cost of the pizza by 1 for every topping in newPizza.toppings.
 Code:
 > newPizza.toppings = ["mushrooms", "onions"]; 
 > newPizza.price();
 Expected Output: 12
-
+```
+```
 Describe: Pizza.prorotype.sizeName()
-Purpose: Return "Small", "Medium", or "Large" based on the size number of a Pizza object.
+
+Test: It should return "Small", "Medium", or "Large" based on the size number of a Pizza object.
 Code:
 > newPizza.size = 1;
 > newPizza.sizeName();
