@@ -14,7 +14,8 @@ header {
 }
 
 #form-container {
-  margin: 20px 10px 10px 10px;
+  margin: 10px 10px 10px 20px;
+  padding-top: 15px;
 }
 
 #form-title {
@@ -23,14 +24,18 @@ header {
 }
 
 #receipt {
-  margin: 15px 10px 10px 30px;
+  margin: 25px 10px 10px 30px;
 }
 #receipt-details {
   display: none;
 }
 
+#receipt-directions {
+  text-align: center;
+}
+
 #receipt-card {
-  height: 550px;
+  height: 500px;
 }
 
 ul {

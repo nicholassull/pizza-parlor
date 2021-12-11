@@ -48,6 +48,7 @@ $(document).ready(function() {
       $("#toppings-list").append("<li>" + topping + "</li>");
     });
     
+    $("#receipt-directions").hide();
     $("#receipt-details").show();
     $("#name-span").html(name);
     $("#size-span").html(newPizza.sizeName());
