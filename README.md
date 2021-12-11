@@ -2,7 +2,7 @@
 
 #### By _**Nick Sullivan**_
 
-#### _Short description_
+#### _An order form and receipt for Ada's Pizza Parlor._
 
 ## Technologies Used
 
@@ -14,7 +14,7 @@
 
 ## Description
 
-__
+_This webpage receives an order for one pizza with different options for size and toppings. Based on the selection of the user, a receipt will be displayed for the order with the order details and total. A larger pizza will cost more, as will a pizza with more toppings. This project is intended to showcase my understanding of JavaScript objects and custom methods._
 
 ## Setup Instructions
 
